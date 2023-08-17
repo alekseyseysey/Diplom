@@ -1,0 +1,61 @@
+.logoBooksWrapper{
+    
+}
+
+.logoBooks{
+    // background-color: green;
+    width: 100%;
+    // height: 2400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newBooksWrapper{
+width: 400px / 1400px * 100%;
+height: 550px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-bottom: 50px;
+cursor: pointer
+}
+
+.newBookImg{
+background-color: #B0C4DE ;
+opacity: 0.9;
+display: flex;
+justify-content: center;
+}
+
+.imgLogo{
+    transition: transform 0.3s ease;
+}
+
+.newBookImg:hover .imgLogo {
+    transform: translate(10px, 10px);
+  }
+
+
+
+.newBookTitle{
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.newBookSubtitle{
+    width: 100%;
+    font-size: 20px;
+    color: grey;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.newBookPrice{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+
+}
+

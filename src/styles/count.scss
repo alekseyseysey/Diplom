@@ -1,0 +1,37 @@
+.countWrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.countDecrement{
+width: 50px;
+height: 50px;
+border: none;
+background-color: white;
+font-size: 45px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+
+}
+
+.countNumber{
+ width: 100px;
+ height: 50px;
+ font-size: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+
+.countIncrement{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 35px;
+}
